@@ -1104,7 +1104,6 @@ body {
 .reveal-right.in-view { animation-name: revealRight; }
 .reveal-zoom.in-view  { animation-name: revealZoom; }
 
-/* garis di bawah judul section tumbuh */
 .section-title.in-view::after {
     animation: lineGrow 0.8s 0.35s cubic-bezier(0.22, 1, 0.36, 1) both;
 }
@@ -1139,10 +1138,21 @@ body {
         width: 240px;
         height: 320px;
     }
+    
     .nav-wrap ul {
-        gap: 14px;
-        padding: 14px 8px;
+        flex-wrap: wrap;
+        gap: 6px 16px;
+        padding: 12px;
     }
+
+    .nav-wrap ul li a {
+        font-size: 12px;
+    }
+
+    html {
+        scroll-padding-top: 90px;
+    }
+
     #about {
         padding: 70px 24px;
     }
@@ -1151,6 +1161,34 @@ body {
         flex-direction: column;
         padding: 22px;
     }
+
+    #experience {
+    padding: 70px 24px;
+}
+
+.exp-tabs {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.exp-tab {
+    flex: 1;
+    padding: 10px 8px;
+    font-size: 13px;
+}
+
+.exp-timeline {
+    padding-left: 22px;
+}
+
+.exp-card {
+    flex-direction: column;
+    padding: 22px;
+}
+
+.exp-card::before {
+    left: -29px;
+}
 
     #projects {
     padding: 70px 24px;
