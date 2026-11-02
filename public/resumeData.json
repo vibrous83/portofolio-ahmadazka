@@ -1,0 +1,208 @@
+{
+    "main":{
+        "name": "Ahmad Azka Al Husaini",
+        "summary": "Fresh Graduate in Informatics Engineering from Sriwijaya University with a GPA of 3.94/4.00. Skilled in Website Development and Data Analytics"    
+    },
+    "about": {
+        "introduction": "Informatics Engineering fresh graduate from Sriwijaya University with a GPA of 3.94/4.00, with experience in website development and data analytics through internships, academic projects, and training courses. Skilled in developing applications using PHP, React, Java, JavaScript, HTML, and CSS. Experienced in analyzing, processing, and visualizing data using Excel, SQL, Python, and Looker Studio. Possesses strong problem solving and critical-thinking skills, with the ability to work collaboratively in team environments",
+        "education": [
+            {
+                "school": "Sriwijaya University",
+                "degree": "Bachelor of Informatics Engineering, Faculty of Computer Science",
+                "gpa": "3.94/4.00",
+                "location": "Indralaya, Indonesia",
+                "period": "2022 - 2026",
+                "courses": [
+                    "Software Engineering",
+                    "Website Development",
+                    "Data Analytics",
+                    "Database Systems",
+                    "Data Mining",
+                    "Data Science",
+                    "Deep Learning"
+                ]
+            }
+        ],
+        "technicalSkills": [
+            "PHP", "React", "Node JS", "Laravel", "Python", "Java", "Flutter",
+            "JavaScript", "Bootstrap", "Tailwind", "MySQL", "REST API", "HTML", "CSS"
+        ],
+        "softSkills": [
+            "Leadership", "Problem Solving", "Critical Thinking",
+            "Time Management", "Teamwork", "Adaptability"
+        ],
+        "tools": [
+            "Visual Studio Code", "Looker Studio", "Git", "GitHub", "Google Colab",
+            "Power BI", "Excel", "Canva", "Figma", "TensorFlow", "Postman"
+        ]
+    },
+    "experience": {
+        "work": [
+            {
+                "company": "Bukadigital.id",
+                "role": "Graphic Designer",
+                "location": "Palembang, Indonesia",
+                "period": "September 2024 – December 2024",
+                "logo": "",
+                "points": [
+                    "Designed multiple website headers for D3 Public Sector Accounting, University of Trisakti, maintaining consistency with the institution's branding.",
+                    "Collaborated with the graphic design team to create engaging Instagram posts and stories for @bukadigital.id.",
+                    "Created content ideas, wrote content, and designed weekly Instagram content feeds for @ampera_plastik."
+                ]
+            },
+            {
+                "company": "PT Indonesia Comnets Plus Palembang",
+                "role": "Retail Solution Division",
+                "location": "Palembang, Indonesia",
+                "period": "July 2024 – August 2024",
+                "logo": "",
+                "points": [
+                    "Developed a comprehensive retail RSBS dashboard using Looker Studio to visualize key performance metrics and streamline operational reporting.",
+                    "Utilized Putty for attenuation checks and conducted initial analyses on Huawei and MA systems, monitored ticket availability and categories in ICRM, and recorded operational data in Google Sheets.",
+                    "Analyzed and inputted data into ICRM SBU Sumbagsel based on the front and interior conditions of FATs, checking for the presence of splitters and customers."
+                ]
+            }
+        ],
+    "organization": [
+        {
+            "company": "Google Developer Groups on Campus Universitas Sriwijaya",
+            "role": "Member of Graphic Design",
+            "location": "Palembang, Indonesia",
+            "period": "January 2025 – December 2025",
+            "logo": "",
+            "points": [
+                "Designed event and infographic Instagram content for @gdgunsri and various creative assets including merchandise, yearbooks, and other materials.",
+                "Served as the Person in Charge (PIC) for the Redesign Challenge event and contributed as a committee member in various events.",
+                "Participated in various activities, including info sessions, tech talks, study jams, and networking events."
+            ]
+        },
+        {
+            "company": "AIESEC in UNSRI",
+            "role": "Delegates of AFL (AIESEC Future Leaders)",
+            "location": "Palembang, Indonesia",
+            "period": "April 2024 – July 2024",
+            "logo": "",
+            "points": [
+                "Participated in a development program focused on developing leadership, public speaking, managerial abilities, and soft skills through workshops with teams to solve assigned case studies.",
+                "Developed skills in identifying community problems and designing innovative solutions through exercises and simulations."
+            ]
+        },
+        {
+            "company": "HMIF (Himpunan Mahasiswa Informatika) UNSRI",
+            "role": "Staff of Entrepreneurship",
+            "location": "Palembang, Indonesia",
+            "period": "February 2023 – December 2023",
+            "logo": "",
+            "points": [
+                "Collaborated with the team to create engaging Instagram content for @ice.cito about entrepreneurship, including article writing and post design.",
+                "Managed the production of Informatics Engineering class of 2022 jackets, HMIF jackets, ID cards, beverage sales, merchandise, and organized two bazaars."
+            ]
+        }
+        ]
+    },
+    "projects": [
+        {
+            "title": "Detection of Mango Plant Diseases Based on Leaf Images Using the YOLO11 Algorithm on Android",
+            "image": "./app1.png",
+            "github": "https://github.com/vibrous83/Detection-of-Mango-Plant-Diseases",
+            "description": "This project aims to assist farmers in detecting early-stage mango leaf diseases through a mobile Android application powered by YOLO11n.",
+            "tech": ["Flutter", "Python", "YOLO11", "TensorFlow Lite"],
+            "insights": [
+               "Preprocessed 1,405 Harum Manis mango leaf images using Roboflow for manual bounding box annotation and resizing (640x640) across three classes: Anthracnose (525), Sooty Mould (656), and Healthy (224).",
+                "Split the dataset into 70% training, 15% validation, and 15% testing sets to train and evaluate the YOLO11n model across 4 distinct hyperparameter scenarios (varying batch sizes 16/24, SGD/Adam optimizers, 50 epochs, learning rate 0.01, and patience 10)."  ],
+            "outcome": "Successfully grouped 2,406 news articles into 3 optimal clusters with a Silhouette Score of 0.2718, representing distinct categories: Politics, Technology, and General News."
+        },
+        {
+            "title": "Kitchen Equipment Sales Performance Dashboard",
+            "image": "./app2.png",
+            "github": "https://github.com/vibrous83/Kitchen-Equipment-Sales-Performance-Dashboard",
+            "description": "This project aims to transform raw sales transaction data into an interactive Looker Studio dashboard to help management monitor sales revenue, assess business performance accurately, and drive data-informed decision-making.",
+            "tech": ["SQL", "Python", "Looker Studio", "Google Big Query", "Excel"],
+            "insights": [
+                "Cleaned and structured raw sales transaction data (handling missing values, formatting date structures, and standardizing product/city names).",
+                "Calculated key sales metrics, including Total Revenue, Total Orders, Order Completion Rate, and revenue breakdowns by product, category, and city.",
+                "Designed and developed an interactive dashboard in Looker Studio using trend lines, doughnut charts, and bar graphs to display sales distribution clearly."
+            ],
+            "outcome": "Successfully built and deployed an interactive Business Intelligence dashboard in Looker Studio to streamline business performance monitoring and track key sales KPIs in real time."
+        },
+        {
+            "title": "Automated News Category Clustering Using K-Means algorithm",
+            "image": "./app3.jpg",
+            "github": "https://github.com/vibrous83/Automated-News-Category-Clustering",
+            "description": "This project aims to automatically group news articles based on topic similarity using the K-Means Clustering algorithm.",
+            "tech": ["Python", "Streamlit", "Scikit-Learn", "Machine Learning"],
+            "insights": [
+                "Preprocessed 2,406 news articles using tokenization, stopword removal, lemmatization, and entity merging for location (GPE) and organization (ORG) names.",
+                "Integrating TF-IDF with Truncated SVD effectively reduces noise and optimizes computation speed without losing key topic variations.",
+                "Evaluating model performance via Silhouette Score provides an objective way to determine the optimal number of distinct clusters."
+          ],
+            "outcome": "Successfully grouped 2,406 news articles into 3 optimal clusters with a Silhouette Score of 0.2718, representing distinct categories: Politics, Technology, and General News."
+        },
+        {
+            "title": "Employee Attendance Management System",
+            "image": "./app4.png",
+            "github": "https://github.com/vibrous83/Employee-Attendance-Management-System/",
+            "description": "Developed a web-based employee attendance management system to simplify daily attendance recording and employee attendance monitoring within a company. The system provides two user roles: Admin and Employee, each with different access permissions and functionalities.",
+            "tech": ["PHP", "MySQL", "JavaScript", "Bootstrap"],
+            "insights": [
+                "Developed CRUD (Create, Read, Update, Delete) functionality for managing employee data and attendance records.",
+                "Developed employee attendance features, including clock-in, clock-out, leave requests, and sick leave submissions.",
+                "Enabled employees to track attendance records, view attendance history, and monitor attendance statistics.",
+                "Provided administrators with employee data management, attendance monitoring, leave management, and attendance report generation."
+            ],
+            "outcome": "Successfully developed a centralized attendance management system that helps administrators manage employee attendance records and enables employees to record and monitor their daily attendance more efficiently."
+        }
+    ],
+    "certificates": [
+        {
+            "title": "Frontend - React",
+            "issuer": "MySkill",
+            "date": "November 2026",
+            "image": "./Sertif1.jpg",
+            "link": "https://storage.googleapis.com/myskill-v2-certificates/topic-sTLaN1dknfdCpAbUm5O2/AC42xcCTIHhQXHi1uuyaMBFxzEf1-B1akszq4M5GZyuOeq9wv.pdf"
+        },
+        {
+            "title": "Data Analyst untuk Persiapan Sertifikasi BNSP",
+            "issuer": "Yureka Education Center",
+            "date": "July 2026",
+            "image": "./Sertif2.jpg",
+            "link": "https://drive.google.com/file/d/1Y7veK05jCdeNszLmY9PwMtui1V8EeAdU/view"
+        },
+        {
+            "title": "BOOTCAMP Data Analyst With SQL, Python, dan Google Looker Studio",
+            "issuer": "KarirNeX",
+            "date": "July 2026",
+            "image": "./Sertif3.jpg",
+            "link": "https://drive.google.com/file/d/1PX5HqvxjgC81LJ8uTpxZLFeaRb0f-Afb/view"
+        },
+        {
+            "title": "TOEFL ITP Prediction Test (Score: 537)",
+            "issuer": "English Join Indonesia",
+            "date": "July 2026",
+            "image": "./Sertif4.jpg",
+            "link": "https://www.linkedin.com/in/ahmadazkaalhusaini/overlay/Certifications/731461969/treasury?profileId=ACoAAEYPIHoBeKP_dQeZwD1cfRLRXtjOrSVzDF4"
+        },
+        {
+            "title": "Intro to Data Analytics",
+            "issuer": "RevoU",
+            "date": "March 2025",
+            "image": "./Sertif6.jpg",
+            "link": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1bWyfHyaeGoEQxyFskneg_ugETRbTGmPS%2Fview%3Fusp%3Ddrivesdk&urlhash=vnWv&mt=nrIAhXWe9_nwdDj3Uojk_8SePBHhlJ_9XyJgiQ16n8UVadadlshxSEQgDcVbyt1OREOWiFaB7CWDI8TwaRsqChQa2zjh81x1B36En5OUAzEraXovd_cDoJ9eI2u0jlp0sV2HY69cvH5rqxf5BipYBcI9yNJUTMsPKCcdToHg_PYVBescp7Af1_RUmPOu&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Be%2BMHkqjzT%2FeJ1spt4xrBuA%3D%3D"
+        },
+        {
+            "title": "DSF 23 Front End Developer",
+            "issuer": "Dibimbing.id",
+            "date": "January 2024",
+            "image": "./Sertif5.jpg",
+            "link": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Fdibimbing-lms-dev.s3.ap-southeast-1.amazonaws.com%2Fdigital-skill-fair%2F963b554c-ba6a-4f2c-8ce6-642b8088718e.pdf&urlhash=yP7Q&mt=z9C-oiHcnTQLxLHZssXiROriJr-zC6CIV0fed3fTs7RD2aDKvaUjiJdWAPcIcpJxO2JDRWoNRpj0n89KCJcEvtjbTCjUgKAZIUdikKt73zl1B-A9Rf8cdo2nDnxgfCNnFEzOL7TQTpKvXprO3oZMBGjBK_tXJLRo_QWwKLjOL0cx0M4h-xTHBGUGPzn-&isSdui=true&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_certifications_details%3Be%2BMHkqjzT%2FeJ1spt4xrBuA%3D%3D"
+        }
+    ],
+    "contacts": {
+        "heading": "Let's Work Together!",
+        "text": "I am currently seeking new opportunities where I can apply my skills, expand my knowledge, and contribute to projects. Feel free to contact me!",
+        "email": "ahmadazkaalhusaini@gmail.com",
+        "location": "Palembang, Indonesia",
+        "linkedin": "https://www.linkedin.com/in/ahmadazkaalhusaini",
+        "github": "https://github.com/vibrous83"
+    }
+}
