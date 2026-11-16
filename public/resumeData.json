@@ -146,7 +146,7 @@
             "tech": ["PHP", "MySQL", "JavaScript", "Bootstrap"],
             "insights": [
                 "Developed CRUD (Create, Read, Update, Delete) functionality for managing employee data and attendance records.",
-                "Developed employee attendance features, including clock-in, clock-out, leave requests, and sick leave submissions.",
+                "Developed employee attendance features, including GPS-based location validation for clock-in and clock-out, leave requests, and sick leave submissions.",
                 "Enabled employees to track attendance records, view attendance history, and monitor attendance statistics.",
                 "Provided administrators with employee data management, attendance monitoring, leave management, and attendance report generation."
             ],
